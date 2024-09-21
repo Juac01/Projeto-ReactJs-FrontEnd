@@ -1,0 +1,45 @@
+.pagina-efeitos {
+
+
+    .sit-aluno {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input {
+            min-width: auto;
+            width: 80px;
+            text-align: center;
+        }
+
+    }
+
+    .notas-aluno {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+            min-width: auto;
+            width: 80px;
+        }
+
+        .entradas {
+            display: flex;
+            gap: 20px;
+        }
+
+        .media,
+        .media-situacao {
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            border: 1px dashed #000;
+
+            div {
+                font: 700 24px 'Poppins';
+            }
+        }
+    }
+
+}

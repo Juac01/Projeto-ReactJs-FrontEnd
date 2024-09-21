@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Playpen Sans";
+}
+
+
+a,
+a:visited,
+a:link {
+  color: inherit;
+}
+
+.pagina {
+
+  background-color: #F5F6FA;
+  min-height: 100vh;
+
+
+
+  //-------------------------------------------
+  .secao {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 15px 2px #b2aaaa;
+    margin: 50px 60px;
+    max-width: 1000px;
+    border-radius: 10px;
+    font: 600 20px 'Poppins';
+  }
+
+  h1 {
+    color: #645e5e;
+    font: 600 32px 'Poppins';
+  }
+
+  input,
+  select, textarea {
+    padding: 10px;
+    border-style: solid;
+    border-color: #d1d1d1;
+    color: #606060;
+    border-radius: 3px;
+    border-width: 2px;
+    min-width: 400px;
+
+    font: 400 22px 'Poppins';
+    outline: none;
+  }
+
+  input[type=checkbox], input[type=radio]{
+    min-width: auto;
+  }
+
+  button {
+    background-color: blue;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border-color: black;
+    cursor: pointer;
+  }
+  button:hover{
+    color: orange;
+  }
+
+}
