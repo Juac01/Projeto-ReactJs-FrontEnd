@@ -7,6 +7,7 @@ import VarEstado from './pages/varEstado';
 import Comps from './pages/comps';
 import RenderizacaoCondicional from './pages/rendoCon';
 import Efeitos from './pages/efeitos';
+import ChamadaApi from './pages/chamadaApi';
 
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ export default function Navegacao() {
                 <Route path='/comps' element={<Comps/>} />
                 <Route path='/rendocon' element={<RenderizacaoCondicional/>} />
                 <Route path='/efeitos' element={<Efeitos/>} />
+                <Route path='/chamadaapi' element={<ChamadaApi/>} />
 
  
 

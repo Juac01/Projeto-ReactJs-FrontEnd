@@ -1,0 +1,43 @@
+.comp-cartao-omdb {
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 0px 10px #5b5656;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+
+    img {
+        width: 150px;
+        border-radius: 20px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .titulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+
+    h1 {
+        font: 700 24px/22px 'Poppins' !important;
+        color: #000 !important;
+    }
+
+    h2 {
+        font: 700 18px/22px 'Poppins' !important;
+        color: #000 !important;
+    }
+
+    h3 {
+        font: 700 16px/22px 'Poppins' !important;
+        color: #000 !important;
+    }
+}
