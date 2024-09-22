@@ -3,7 +3,7 @@ import './index.scss';
 export default function CartaoOmdb(props) {
     return (
         <div className='comp-cartao-omdb'>
-            <img src={props.item.Poster} />
+            <img src={props.item.Poster} alt='' />
 
             <div className='info'>
                 <div className='titulos'>

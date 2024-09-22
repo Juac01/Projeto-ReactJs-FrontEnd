@@ -27,7 +27,7 @@ export default function Comps() {
 
     function adicionarFilme() {
 
-        if(nomeFilme == '' || classificacaoFilme == '' || url == ''){
+        if(nomeFilme === '' || classificacaoFilme === '' || url === ''){
             alert("Preencha os campos para continuar");
             return;
         }

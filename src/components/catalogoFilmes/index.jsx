@@ -4,11 +4,11 @@ import './index.scss';
 export default function CatalogoFilmes(props) {
     return (
         <div className='comp-cartao-filme'>
-            <img src={props.item.url} />
+            <img src={props.item.url} alt=''/>
 
             {props.item.estreia != '' &&
                 < div className='estreia'>
-                    {props.item.destaque == true &&
+                    {props.item.destaque === true &&
                         <i className='fa fa-star estrela'></i>
                     }
                     Estreia{props.item.estreia}

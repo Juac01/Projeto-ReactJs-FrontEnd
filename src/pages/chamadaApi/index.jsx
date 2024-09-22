@@ -32,7 +32,7 @@ export default function ChamadaApi() {
         let res = await axios.get(url);
         let dados = res.data;
 
-        if (dados.Response == 'False') {
+        if (dados.Response === 'False') {
             alert('Nenhum dado encontrado');
             return;
         }
