@@ -15,7 +15,7 @@ export default function ChamadaApi() {
 
 
     async function buscarCEP() {
-        let url = 'http://viacep.com.br/ws/' + cep + '/json/';
+        let url = 'https://viacep.com.br/ws/' + cep + '/json/';
         let res = await axios.get(url);
         let dados = res.data;
 
@@ -28,7 +28,7 @@ export default function ChamadaApi() {
     async function buscarFilmes() {
 
 
-        let url = 'http://www.omdbapi.com/?&apikey=d43a5114&s=' + filmesBusca;
+        let url = 'https://www.omdbapi.com/?&apikey=d43a5114&s=' + filmesBusca;
         let res = await axios.get(url);
         let dados = res.data;
 
