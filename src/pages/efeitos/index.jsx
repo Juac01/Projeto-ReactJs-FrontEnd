@@ -47,11 +47,11 @@ export default function Efeitos() {
     }
 
     function avaliarMencao() {
-        if (mencao == 'P') {
+        if (mencao === 'P') {
             setSitMencao('Plenamenta Satisfatório');
-        } else if (mencao == 'S') {
+        } else if (mencao === 'S') {
             setSitMencao('Satisfatório');
-        } else if (mencao == 'NS') {
+        } else if (mencao === 'NS') {
             setSitMencao('Não Satisfatório');
         } else {
             setSitMencao('Invalido');

@@ -21,7 +21,7 @@ export default function RenderizacaoCondicional() {
 
     function adicionarFilme() {
 
-        if (nomeFilme == '' || classificacaoFilme == '' || url == '') {
+        if (nomeFilme === '' || classificacaoFilme === '' || url === '') {
             alert("Preencha os campos para continuar");
             return;
         }
@@ -81,7 +81,7 @@ export default function RenderizacaoCondicional() {
             <div className='secao'>
                 <h1>Biscoito da Sorte</h1>
 
-                <button onClick={mostrarMSG}>{exibirBiscoito == true ? "Fechar" : "Abrir"}</button>
+                <button onClick={mostrarMSG}>{exibirBiscoito === true ? "Fechar" : "Abrir"}</button>
 
                 {exibirBiscoito == true &&
                     <p className='msg-biscoite' >
