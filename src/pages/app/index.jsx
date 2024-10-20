@@ -1,12 +1,23 @@
 
-import './index.css';
+import './index.scss';
+import { useNavigate } from 'react-router-dom';
+
+
+import Cabecalho from '../../components/cabecalho';
+
+
 
 export default function App() {
+
+    const navigate = useNavigate();
+
   return (
-    <div className="App">
-      <h1>Estudos de ReactJs</h1>
+    <div className="pagina-inicio pagina">
+       <Cabecalho titulo='Bem-vindo' />
+       <button onClick={() => navigate('/tabelaTurma/login')}>Ir para Login</button>
     </div>
   );
 }
+
 
 
