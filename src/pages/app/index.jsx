@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="pagina-inicio pagina">
-       <Cabecalho titulo='Bem-vindo' />
+       <Cabecalho titulo='Bem-vindo Irmão' />
        <button onClick={() => navigate('/tabelaTurma/login')}>Ir para Login</button>
     </div>
   );
