@@ -1,0 +1,21 @@
+.comp-item-metas{
+    .metas {
+        .entrada {
+            margin: 30px 2px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        i {
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        i:hover {
+            color: rgb(110, 97, 97);
+        }
+    }
+   
+}

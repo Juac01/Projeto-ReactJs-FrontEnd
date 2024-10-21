@@ -1,0 +1,33 @@
+.pagina-comps {
+
+    .entrada {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .lista {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .filmes {
+        .entradas {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: start;
+        }
+        .lista{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+    }
+
+
+}

@@ -1,0 +1,15 @@
+.comp-contador {
+    border: 1px dashed #5d5d5d;
+    padding: 20px;
+    display: inline-block;
+    margin: 0px 10px;
+
+    .cont {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-top: 20px;
+        font: 600 24px 'Poppins';
+    }
+
+}

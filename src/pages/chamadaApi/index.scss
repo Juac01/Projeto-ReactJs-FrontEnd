@@ -1,0 +1,30 @@
+.pagina-chamada-api {
+    .correio {
+        p {
+            margin-top: 50px;
+            font: 500 24px 'Poppins';
+        }
+    }
+
+    .omdb {
+
+        .entradas {
+            margin-bottom: 30px;
+        }
+
+        .lista {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        table {
+            width: 100%;
+
+            th {
+                text-align: left;
+            }
+        }
+
+    }
+}
