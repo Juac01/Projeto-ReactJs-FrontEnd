@@ -12,7 +12,7 @@ import ChamadaApi from './pages/chamadaApi';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 export default function Navegacao() {
-    return (
+    return (    
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<App />} />
